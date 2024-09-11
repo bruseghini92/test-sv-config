@@ -7,4 +7,7 @@ management.info.env.enable = true
 info.app.name = "Eureka Client from Github cfg"
 info.app.description = "Eureka Client downloading a cfg file from Github and ServerCfg"
 
+eureka.instance.status-page-url-path=http://localhost:8082/actuator/info
+eureka.instance.health-check-url-path=http://localhost:8082/actuator/health
+
 server.port=8082
