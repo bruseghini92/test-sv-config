@@ -1,3 +1,10 @@
 spring.application.name=eureka-client
 
+management.endpoints.web.exposure.include=health,info
+
+management.info.env.enable = true
+
+info.app.name = "Eureka Client from Github cfg"
+info.app.description = "Eureka Client downloading a cfg file from Github and ServerCfg"
+
 server.port=8082
